@@ -1,5 +1,5 @@
 # Magnetic-encoder
-This document is the test code for a 16 bit magnetic encoder produced by Diamond Company. 
+This document is the test code for a 16 bit magnetic encoder produced by kingkong.tech Company. 
 
 This code starts by parsing serial port (RS485) data through the company's unique CRC-8 verification method, and then determines the indicator light status (red, yellow, and green) of this encoder. 
 
