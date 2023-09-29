@@ -1,7 +1,7 @@
 # Magnetic-encoder
 This document is the test code for a 16 bit magnetic encoder produced by kingkong.tech Company. 
 
-This code starts by parsing serial port (RS485) data through the company's unique CRC-8 verification method, and then determines the indicator light status (red, yellow, and green) of this encoder. 
+This code starts by parsing serial port (RS485) data through the company's unique CRC-8 verification method (x^8+x^7+x^4+x^2+x^1+1), and then determines the indicator light status (red, yellow, and green) of this encoder. 
 
 If the program determines that the encoder status is normal (green light), then analyze the data and calculate the angle. 
 
