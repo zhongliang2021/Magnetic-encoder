@@ -1,10 +1,3 @@
-package com.iflytek.south.industry.android.service.magneticEncoder;
-
-
-
-import com.iflytek.south.industry.android.context.log.Logger;
-import com.iflytek.south.industry.android.context.log.Logs;
-
 
 import java.util.Arrays;
 
